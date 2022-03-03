@@ -20,3 +20,4 @@ global_init(input())
 for job in create_session().query(Jobs).all():
     if job.work_size < 20 and job.is_finished != True:
         print(f'<Job> {job.job}')
+##m-master?
